@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+body {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+.main-visual {
+    width: 100%;
+    height: 400px;
+    background: #fff url(2015122701.jpg) 0 0 no-repeat;
+    background-size: cover;
+    margin-bottom: 32px;
+    padding-top: 60px;
+}
+
+#main {
+    width: 652px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+}
+
+#main a {
+    margin-top: 70px;
+    font-size: 15px;
+    padding: 10px;
+    background: #000;
+    color: #cccccc;
+    border: 1px solid #000;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 8em;
+}
+
+#main a:hover {
+    background: #000;
+    color: #000;
+}
+
+h1 {
+    font-size: 36px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    color: #000;
+    font-weight: 400;
+}
+
+h2 {
+    color: #000;
+}
+
+p {
+    margin-bottom: 16px;
+    margin-top: 17px;
+}
+
+.toolbar{
+    position: absolute;
+    top: 0;
+}
+
+#sidebar {
+    width: 280px;
+    float: left;
+    /*    margin: 0px 12px;*/
+    background: #000;
+    /*    padding: 8px;*/
+    position: relative;
+    color: white;
+}
+
+#sidebar img {
+    margin-bottom: 16px;
+}
+
+#sidebar h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#sidebar p {
+    font-size: 16px;
+}
+
+.sidebar-inner {
+    padding: 40px;
+}
+
+img {
+    width: 300px;
+    float: left;
+    border-radius: 5px;
+}
+
+.imgright {
+    float: right;
+}
+
+.content {
+    border-bottom: 10px solid;
+    /*2px->10px*/
+    padding: 16px 0;
+    overflow: hidden;
+    
+}
+
+.top-title {
+    font: 36px;
+    padding-left: 8px;
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: 400;
+    border-left: 7px solid;
+    margin-left: 4px;
+}
+
+.right-box {
+    float: right;
+    width: 288px;
+    margin-right: 12px;
+    /*margin: 0px 5px 0px 9px;*/
+}
+
+.left-box {
+    float: left;
+    width: 288px;
+    /*margin-right: 14px;*/
+    margin-left: 12px;
+}
+
+nav {
+    overflow: hidden;
+    z-index:
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    margin-top: 2px;
+}
+
+nav a {
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    margin: 14px 16px 0px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    border-bottom: 3px solid #f9f9f9;
+}
+
+p.new {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #81E8E5;
+    color: #fff;
+    text-align: center;
+    line-height: 65px;
+    font-style: 25px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+#contents1 {
+    position: relative;
+    /*background-color:#c0c0c0;*/
+    background-color: rgba(206, 206, 206, 0.7);
+    /*rgbaに変えました*/
+}
+
+.animation1 {
+    position: relative;
+    width: 290px;
+    float: left;
+    margin: 0px 12px;
+}
+
+#contents1 .animation1 .caption {
+    position: absolute;
+    padding: 20px;
+    background: #e63c35;
+    height: 30px;
+    width: 260px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    margin-top: 130px;
+}
+
+#contents1 .animation1 .caption:hover {
+    opacity: 0.7;
+}
+
+#contents1 .animation1 .caption h2 {
+    color: white;
+    font-size: 13px;
+}
+
+#contents1 .animation1 .caption h3 {
+    color: white;
+    font-size: 15px;
+}
+
+#contents2 {
+    position: relative;
+    /*background-color:#c0c0c0;*/
+    background-color: rgba(206, 206, 206, 0.7);
+    /*rgbaに変えました*/
+}
+
+.animation2 {
+    position: relative;
+    width: 300px;
+    float: right;
+    margin: 0px 12px;
+}
+
+#contents2 .animation2 .caption {
+    position: absolute;
+    padding: 20px;
+    background: #3659C1;
+    height: 28.5px;
+    width: 260px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    margin-top: 130px;
+}
+
+#contents2 .animation2 .caption:hover {
+    opacity: 0.7;
+}
+
+#contents2 .animation2 .caption h2 {
+    color: white;
+    font-size: 13px;
+}
+
+#contents2 .animation2 .caption h3 {
+    color: white;
+    font-size: 15px;
+}
+
+#contents3 {
+    position: relative;
+    /*background-color:#c0c0c0;*/
+    background-color: rgba(206, 206, 206, 0.7);
+    /*rgbaに変えました*/
+}
+
+.animation3 {
+    position: relative;
+    width: 300px;
+    float: left;
+    margin: 0px 12px;
+}
+
+#contents3 .animation3 .caption {
+    position: absolute;
+    padding: 20px;
+    background: #E8177A;
+    height: 30px;
+    width: 260px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    margin-top: 130px;
+}
+
+#contents3 .animation3 .caption:hover {
+    opacity: 0.6;
+}
+
+#contents3 .animation3 .caption h2 {
+    color: white;
+    font-size: 13px;
+}
+
+#contents3 .animation3 .caption h3 {
+    color: white;
+    font-size: 15px;
+}
+
+#hoge {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-color: #000;
+    /*背景色を#000にしました*/
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+.sidebar {
+    width: 200px;
+    height: 300px;
+    margin-left: 30px;
+    background-color: #fff;
+    float: left;
+    z-index: 3;
+}
+
+.menu-trigger,
+.menu-trigger span {
+    display: inline-block;
+    transition: all .4s;
+    box-sizing: border-box;
+}
+
+.menu-trigger {
+    margin-top: 5px;
+    position: relative;
+    width: 40px;
+    height: 44px;
+}
+
+.menu-trigger span {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 1px;
+}
+
+.menu-trigger span:nth-of-type(1) {
+    top: 0;
+}
+
+.menu-trigger span:nth-of-type(2) {
+    top: 20px;
+}
+
+.menu-trigger span:nth-of-type(3) {
+    bottom: 0;
+}
+
+.menu-trigger.active span:nth-of-type(1) {
+    -webkit-transform: translateY(20px) rotate(-315deg);
+    transform: translateY(20px) rotate(-315deg);
+}
+
+.menu-trigger.active span:nth-of-type(2) {
+    opacity: 0;
+}
+
+.menu-trigger.active span:nth-of-type(3) {
+    -webkit-transform: translateY(-20px) rotate(315deg);
+    transform: translateY(-20px) rotate(315deg);
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>My Web Site</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div id="hoge"></div>
+
+    <div id="wrapper">
+        <div class="container">
+            <div id="main">
+                <div id="contents1" class="content">
+                    <h1 class=top-title>My Profile</h1>
+                    <div class="animation1">
+                        <img src="lifeistech_office1.jpg" alt="" width="300">
+                        <div class="caption">
+                            <h2>2015, 12, 23</h2>
+                            <h3>Animation 1</h3>
+                        </div>
+                    </div>
+                    <div class="right-box">
+                        <h2>自己紹介</h2>
+                        <p>
+                        </p>
+                        <a href="https://www.facebook.com/profile.php?id=100008196697149&fref=ts" target="_blank">Facebook</a>
+                    </div>
+                </div>
+
+                <div id="contents2" class="content">
+                    <h1 class="top-title">LIKE</h1>
+                    <div class="animation2">
+                        <img src="kairi2.gif" alt="" width="300">
+                        <div class="caption">
+                            <h2>1993, 11, 8</h2>
+                            <h3>Kairi Sato</h3>
+                        </div>
+                    </div>
+                    <div class="left-box">
+                        <h2>Camera</h2>
+                        <p>EOS 5D.6D.7D
+                            <br>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="contents3" class="content">
+                    <h1 class="top-title">LOVE</h1>
+                    <div class="animation3">
+                        <img src="disney1.jpeg" alt="">
+                        <div class="caption">
+                            <h2>2015, 1, 17</h2>
+                            <h3>Animation 3</h3>
+                        </div>
+                    </div>
+                    <div class="right-box">
+                        <h2>Disney</h2>
+                        <p>California , Florida , Tokyo , parc , Ali'inui , HongKong , Shanghai
+
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="toolbar">
+            <div id="open-sb" class="menu-button menu-right" style="position: absolute; color: white;">
+                <a class="menu-trigger" href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </div>
+        <div id="sidebar">
+            <div class="sidebar-inner">
+                <ul>
+                    <li>Rina Homma</li>
+                    <li>2001, 2, 26</li>
+                    <li>Life is Tech!member</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="particles.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./simple-sidebar-master/dist/jquery.simple-sidebar.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+
+</html>
