@@ -195,6 +195,18 @@ p.new {
     margin: 0px 12px;
 }
 
+.image {
+    position: relative;
+    margin: 0 12px;
+    width: 300px;
+    height: 198px;
+    float: right;
+}
+
+.image img {
+    height: 100%;
+}
+
 #contents1 .animation1 .caption {
     position: absolute;
     padding: 20px;
@@ -365,4 +377,18 @@ p.new {
 .menu-trigger.active span:nth-of-type(3) {
     -webkit-transform: translateY(-20px) rotate(315deg);
     transform: translateY(-20px) rotate(315deg);
+}
+.snslink {
+    color: white;
+    font-size: 25px;
+    margin:0px 3px;
+}
+
+.sidebar-list {
+    margin-bottom: 15px;
+}
+
+.category {
+    color: white;
+    margin-bottom: 7px;
 }
