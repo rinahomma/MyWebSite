@@ -3,10 +3,10 @@ particlesJS('hoge',{
 
 //--シェイプの設定----------
       "number":{
-        "value":80, //シェイプの数
+        "value":30, //シェイプの数
         "density":{
           "enable":true, //シェイプの密集度を変更するか否か
-          "value_area":600 //シェイプの密集度
+          "value_area":200 //シェイプの密集度
         }
       },
       "shape":{
@@ -17,7 +17,7 @@ particlesJS('hoge',{
         },
         //typeをpolygonにした時の設定
         "polygon": {
-          "nb_sides": 3 //多角形の角の数
+          "nb_sides": 5 //多角形の角の数
         },
         //typeをimageにした時の設定
         "image": {
@@ -63,7 +63,7 @@ particlesJS('hoge',{
 
 //--動きの設定----------
       "move":{
-        "speed":6, //シェイプの動くスピード
+        "speed":7, //シェイプの動くスピード
         "straight":false, //個々のシェイプの動きを止めるか否か
         "direction":"none", //エリア全体の動き(none、top、top-right、right、bottom-right、bottom、bottom-left、left、top-leftより選択)
         "out_mode":"out" //エリア外に出たシェイプの動き(out、bounceより選択)
